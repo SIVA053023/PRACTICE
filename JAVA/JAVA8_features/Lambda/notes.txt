@@ -1,0 +1,26 @@
+what are the advantages of the lambda expression ?
+
+LAMBDA expression only applicable in the FUNTIONAL INTERFACES only
+
+1  to minimise and concise the code
+2  to maintain code easily and it improves the readability
+3  to enable funcion al programming in java
+4  to enablke parallel programming
+5  JAR file reduction means reduce the Zip size of the code
+6  Elimination of the Shadow variables
+
+
+
+no return type, no access modifier, no name                just like this   ()->{}     by seeing examples you can learn more
+
+One more we learn at this point--->When to use the extends An d WHen to use the Implements
+
+extends -----> used for to inheritent the 1.   class to class   2. interface to interface 
+
+implements ---> used for to inheritent the interface to class
+
+
+// one more Thing is that
+
+   we can not process the data in interfaces  because there is no mainn method in interfaces   
+   so in class only we can process the data and get the result as well.
