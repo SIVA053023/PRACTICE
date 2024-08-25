@@ -17,10 +17,10 @@ One more we learn at this point--->When to use the extends An d WHen to use the 
 
 extends -----> used for to inheritent the 1.   class to class   2. interface to interface 
 
-implements ---> used for to inheritent the interface to class
+implements ---> used for to declarating the interface methods in class/ inn other word for declaring the concrete methods    there we use the  "implements" keyword
 
 
 // one more Thing is that
 
-   we can not process the data in interfaces  because there is no mainn method in interfaces   
+   we can not process the data in interfaces  because there is no main method in interfaces,   
    so in class only we can process the data and get the result as well.
