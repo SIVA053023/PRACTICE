@@ -8,5 +8,7 @@ public class Test{
         enames.add(45);
         enames.add(265);
         enames.add(321);
+        Collections.sort(enames,(a,b)->b-a);          // a-b means a Ascending order and b-a means descending order
+        System.out.println(enames);
     }
 }
