@@ -1,8 +1,13 @@
+// What is the difference between the lambda expression And the Anonymous inner Class,
+// here the  Anonymous inner Class is for to implement the interface methods directly in the mainn method
+
+
+
 public class Main {
     public static void main(String[] args) {
 
         // here in the commment lines lines represents the ANONYMOUS INNER CLASS PART
-        
+
         // One o1=new One (){
         //    public  int  getSalary(){
         //         return 5000;
