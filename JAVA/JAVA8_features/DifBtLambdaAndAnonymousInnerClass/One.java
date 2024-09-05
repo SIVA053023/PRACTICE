@@ -3,7 +3,7 @@ import java.util.*;
  * One
  */
 public interface One {
-            public String empName();
+            public void   empName();
             // public int getSalary();
     
 }

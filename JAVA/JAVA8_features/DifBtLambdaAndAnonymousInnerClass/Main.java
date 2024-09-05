@@ -24,8 +24,9 @@ public class Main {
 
         // Here We use the Lambda expresssion but this lamBAd expression is Applicable only when it is a Functional Interface
       One o1=()->{
-      return "Sivakrishna";
+      System.out.println("Sivakrishna");
       };
+    o1.empName();
     //   for(int i=1;i<=10;i++){
     //     System.out.println("Krishna" + i);
     // }
