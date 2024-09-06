@@ -20,7 +20,7 @@ public class Test {
 
         // both statements gives the same result
 
-        Function<String,String>  name=Function.identity();
+        Function<String,String>  name=Function.identity();                      // identify() just it gives the output as like we gave the input
         List<String> enames=Arrays.asList("Siva","Krishna","Vijaymalya");
 
         enames.stream().forEach(Test::Example);  // by using the For Each method  by using  the method reference  and it just returns the valiue not stored as in list as like Map
