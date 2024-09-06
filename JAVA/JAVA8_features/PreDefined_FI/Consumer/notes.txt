@@ -1,0 +1,9 @@
+CONSUMER  --->       accept();
+
+CONSUMERS takes the input but doesn't return any value
+
+when and where to use then ?
+
+1. callback
+2.when u don't want any return value
+3. like while logging and updating the state  and like recieving the data from user and stores the data in database  at that time we use the CONSUMER
