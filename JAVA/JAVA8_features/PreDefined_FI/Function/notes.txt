@@ -1,0 +1,7 @@
+// Function< T R > ---> apply()    , simply we can we give the input and return the output
+
+In the above above Function contains two argument types
+
+                 1-->     T refers the input type
+                 2-->     R refers the return type 
+
