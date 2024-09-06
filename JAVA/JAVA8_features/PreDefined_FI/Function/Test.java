@@ -26,7 +26,9 @@ public class Test {
         enames.stream().forEach(Test::Example);  // by using the For Each method  by using  the method reference  and it just returns the valiue not stored as in list as like Map
 
         List<String> result=enames.stream().map(m->name.apply(m).toUpperCase()).collect(Collectors.toList());   // here we are using the map it return the value and stores as a list
+        // List<String> result=enames.stream().map(String::toUpperCase).collect(Collectors.toList());    one more awy to convert the strings into the UPPERCASE
         System.out.println(result);
+
     }
     public static void Example(String m){
         System.out.println(m);
