@@ -12,7 +12,7 @@ public class Task {
         List<String> ename=Arrays.asList("Siva","Krishna","Rohith Sharma","Virat Kohli","Jadeja","Ab devilliars","Warner");
         List<String> result=ename.stream().map(name->{
           /* */
-            String firstLetter=name.substring(0, 1).toUpperCase();
+            String firstLetter=name.substring(0, 1).toUpperCase();                       // this is for to print the first letter in uppercase
             String remainingLtters=name.substring(1, name.length()-1).toLowerCase();
             String lastLetter=name.substring(name.length()-1).toUpperCase();
             return firstLetter+remainingLtters+lastLetter;
