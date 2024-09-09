@@ -1,0 +1,3 @@
+Binary operator 
+
+Binaryoperator extends the BiFunction
