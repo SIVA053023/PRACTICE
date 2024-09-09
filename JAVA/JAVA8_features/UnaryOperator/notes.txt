@@ -1,0 +1,6 @@
+UNARY_OERATOR
+
+
+The unary operator is used when input type and the output type is same,
+
+then we use the unary operator;
